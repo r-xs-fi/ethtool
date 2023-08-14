@@ -1,0 +1,12 @@
+{
+	"for_description_of_this_file_see": "https://github.com/function61/turbobob",
+	"version_major": 1,
+	"project_name": "ethtool",
+	"meta": {
+		"description": "Container image for ethtool - the primary means in Linux kernel-based operating systems (primarily Linux and Android) for displaying and modifying the parameters of network interface controllers (NICs) and their associated device driver software.",
+		"website": "https://www.kernel.org/pub/software/network/ethtool/"
+	},
+	"docker_images": [
+		{ "image": "ghcr.io/r-xs-fi/ethtool", "platforms": ["linux/amd64", "linux/arm64", "linux/arm/v7", "linux/riscv64"], "tag_latest": true }
+	]
+}
