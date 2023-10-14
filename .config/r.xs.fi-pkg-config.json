@@ -1,0 +1,10 @@
+{
+	"usage_examples": [
+		{
+			"title": "List info for interface named eth0",
+			"docker_opts": ["--network=host"],
+			"cmd": "eth0",
+			"example_output": "Settings for eth0:\n\tSupported ports: [ TP\t MII ]\n\tSupported link modes:   10baseT/Half 10baseT/Full\n\t                        100baseT/Half 100baseT/Full\n\t                        1000baseT/Full\n\tSupported pause frame use: Symmetric Receive-only\n\tSupports auto-negotiation: Yes\n\tSupported FEC modes: Not reported\n\tAdvertised link modes:  10baseT/Half 10baseT/Full\n\t                        100baseT/Half 100baseT/Full\n\t                        1000baseT/Full\n\tAdvertised pause frame use: Symmetric Receive-only\n\tAdvertised auto-negotiation: Yes\n\tAdvertised FEC modes: Not reported\n\tLink partner advertised link modes:  10baseT/Half 10baseT/Full\n\t                                     100baseT/Half 100baseT/Full\n\t                                     1000baseT/Full\n\tLink partner advertised pause frame use: No\n\tLink partner advertised auto-negotiation: Yes\n\tLink partner advertised FEC modes: Not reported\n\tSpeed: 1000Mb/s\n\tDuplex: Full\n\tAuto-negotiation: on\n\tmaster-slave cfg: preferred slave\n\tmaster-slave status: slave\n\tPort: Twisted Pair\n\tPHYAD: 0\n\tTransceiver: external\n\tMDI-X: Unknown\n\tSupports Wake-on: pumbg\n\tWake-on: d\n\tLink detected: yes"
+		}
+	]
+}
