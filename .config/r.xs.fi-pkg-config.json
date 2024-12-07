@@ -1,4 +1,5 @@
 {
+	"supply_chain_descriptor": "alpine-package:ethtool",
 	"usage_examples": [
 		{
 			"title": "List info for interface named eth0",
